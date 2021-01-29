@@ -7,7 +7,9 @@
 	@section('content')
 		<h1>Добро пожаловать</h1>
 
-		<a href="/articles/create">Создать статью</a>
+		<a class="text-uppercase font-weight-bold text-success" href="/articles/create">Создать статью</a>
+
+		<h2>Список статей</h2>
 
 			<div class="row mb-2">
 			@foreach ($articles_old as $article_old)
