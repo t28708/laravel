@@ -20,10 +20,11 @@ class CreateCommentsTable extends Migration
             $table->unsignedBigInteger('article_id');
             $table->string('title')->nullable();
             $table->text('body');
-            $table->bigIncrements('comment_parent')->nullable();
+            $table->unsignedBigInteger('comment_parent')->nullable();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('article_id')->references('id')->on('articles')->onDelete('cascade');
+            $table->foreign('comment_parent')->references('id')->on('comments')->onDelete('cascade');
         });
     }
 
