@@ -198,9 +198,9 @@
                     }
                 }
 
-            } else {
                 this.addTextarea();
-            }
+
+            } 
 
         },
         
