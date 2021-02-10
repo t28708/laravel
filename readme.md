@@ -10,8 +10,8 @@
 	<li>npm run dev</li>
 </ol>
 
-<h2>Simple BLOG<h2>
+<h2>Simple BLOG</h2>
 
-<p>A simple blog with the function of adding articles, comments of registered users and anonymous users. The ability to add images and a visual editor on VUE.js</p>
+<p>A simple blog with the function of adding articles, comments of registered users and anonymous users. The ability to add images and a <b>visual editor</b> on <b>VUE.js</b></p>
 
-<p>user id #1 will be automatically assigned as an <b>administrator</b></p>
+<p>user id #1 will be automatically assigned as an <b>administrator</b>.</p>
