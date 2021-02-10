@@ -24,7 +24,7 @@
 
 						<div class="card-body d-flex flex-column align-items-start">
 							<a class="d-inline-block mb-2 text-primary" href="{{ action('ArticleController@show', [$article_old->id]) }}">{!! $article_old->title !!}</a>
-							<div class="mb-1 text-muted">{!! $article_old->user->name !!}</div>
+							<div class="mb-1 text-muted">автор: <strong>{!! $article_old->user->name !!}</strong></div>
 						</div>
 					</div>
 				</div>	

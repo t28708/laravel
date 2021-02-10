@@ -42,7 +42,7 @@ class ArticleController extends Controller
         $bodyEditAltNew = [];
         $bodyEdit  =[];
               
-        return  view('article.create' , ['bodyEdit' => $bodyEdit,'nameImgs' => $nameImgs, 'BodyImgOpis' => $bodyEditOpisNew, 'BodyImgAlt' => $bodyEditAltNew, ]);  
+        return  view('article.create' , ['bodyEdit' => $bodyEdit, 'nameImgs' => $nameImgs, 'BodyImgOpis' => $bodyEditOpisNew, 'BodyImgAlt' => $bodyEditAltNew, 'isAdmin' => $isAdmin,]);  
 
     }
 

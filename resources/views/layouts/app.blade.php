@@ -9,7 +9,6 @@
 
     <title>@yield('meta_title')</title>
     <meta name="description" content="@yield('meta_description')"/>
-    <meta name="keywords" content="@yield('meta_keyword')"/>
     
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
