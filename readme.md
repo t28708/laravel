@@ -1,4 +1,4 @@
-<h2>Instalation</h2>
+<h2>Install</h2>
 
 <ol>
 	<li>git clone https://github.com/t28708/laravel.git <name folder></li>
